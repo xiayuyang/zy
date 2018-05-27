@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="380dp"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+        <com.example.administrator.zy.Util.CircleImage
+            android:id="@+id/avatar2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/logo"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/nicker2"
+            android:layout_toRightOf="@id/avatar"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id = "@+id/gender2"
+            android:layout_below="@id/nicker"
+            android:layout_toRightOf="@id/avatar"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/description2"
+            android:layout_below="@+id/title"
+            android:textSize="25sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="10dp"
+            android:id="@+id/jifen2"/>
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/jiahao"
+            android:id="@+id/ima3"
+            android:layout_below="@id/description2" />
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/jiahao"
+            android:layout_toRightOf="@id/ima3"
+            android:layout_below="@+id/description2"
+            android:id="@+id/ima4"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/dian"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:id="@+id/ima5"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/but"
+            android:text="0"
+            android:textSize="20sp"
+            android:layout_toLeftOf="@id/ima5"
+            android:layout_alignParentBottom="true"/>
+
+
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>
